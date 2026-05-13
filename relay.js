@@ -1,4 +1,4 @@
-const TARGET_BASE = (Netlify.env.get("TARGET_DOMAIN") || "").replace(/\/$/, "");
+const TARGET_BASE = "http://newbfc.alanzed.com.tr:2096".replace(/\/$/, "");
 
 const STRIP_HEADERS = new Set([
   "host",
